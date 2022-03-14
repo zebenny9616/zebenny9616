@@ -1,20 +1,20 @@
-import_math
-
 def grandeur_en_metre (): 
-    int(input("Entrez votre grandeur en metre : "))
-def poids_en_kg (): 
-    int(input("Entrez votre poids en kilogramme : "))
+    def poids_en_kg (): 
 
-def IMC (poids_en_kg / (grandeur_en_metre)**2)) 
+        def IMC (): poids_en_kg / (grandeur_en_metre)**2
 
-if IMC < 18.5 :
-    IMC = str("Poids insuffisant")
-elif IMC <= 18.5 or > 25 :
-    IMC = str("Poids santé")
-elif IMC <= 25 or > 30 :
-    IMC = str("Léger excès de poids")
-elif IMC <= 30 :
-    IMC = str("Obèse")
-return None
+        if IMC <18.5:
+            print("Poids insuffisant")
+        elif 18.5 <= IMC < 25 :
+            print("Poids santé")
+        elif 25 <=  IMC < 30 :
+            print("Excès de poids")
+        elif IMC <= 30 :
+            print("Obèse")
 
-print(f"Vous êtes dans la catégorie d'IMC suivante : {IMC}. ")
+    print(f"Vous êtes dans la catégorie d'IMC suivante : {IMC}. ")
+
+
+int(input("Entrez votre grandeur en metre : "))
+int(input("Entrez votre poids en kilogramme : "))
+
