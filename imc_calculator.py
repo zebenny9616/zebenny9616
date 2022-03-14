@@ -1,3 +1,5 @@
+import_math
+
 def grandeur_en_metre (): 
     int(input("Entrez votre grandeur en metre : "))
 def poids_en_kg (): 
@@ -13,6 +15,6 @@ elif IMC <= 25 or > 30 :
     IMC = str("Léger excès de poids")
 elif IMC <= 30 :
     IMC = str("Obèse")
+return None
 
-
-print(f"Vous êtes dans la catégorie d'IMC suivante : {IMC}. ") 
+print(f"Vous êtes dans la catégorie d'IMC suivante : {IMC}. ")
